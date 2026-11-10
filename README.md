@@ -1,3 +1,24 @@
+## Steam Frame
+
+The Frame toolkit work is on [`steam-frame-vr`](https://github.com/astromaddie/xboxrecomp/tree/steam-frame-vr).
+It adds OpenXR to the Vulkan backend, stereo replay and Frame controller bindings.
+The default `takedawn` branch keeps the upstream toolkit.
+
+This repository builds runtime libraries. For a playable Frame build, use the
+matching [Takedawn fork](https://github.com/astromaddie/takedawn/tree/steam-frame-vr)
+and its [Frame build guide](https://github.com/astromaddie/takedawn/blob/steam-frame-vr/docs/steam-frame.md).
+Both checkouts need their `steam-frame-vr` branches, in sibling folders:
+
+```sh
+git clone --recurse-submodules --branch steam-frame-vr https://github.com/astromaddie/xboxrecomp.git
+git clone --recurse-submodules --branch steam-frame-vr https://github.com/astromaddie/takedawn.git
+cd takedawn
+```
+
+You need your own supported game data. The upstream toolkit README follows.
+
+---
+
 # xboxrecomp
 
 ```

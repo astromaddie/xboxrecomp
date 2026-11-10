@@ -2,6 +2,10 @@
 
 Thanks for your interest in contributing to the Xbox static recompilation toolkit. This document covers what you need to get started, where to focus your efforts, and how to submit your work.
 
+For this fork's Steam Frame work, follow [docs/steam-frame.md](docs/steam-frame.md).
+Its Linux ARM64/OpenXR setup uses the matching Takedawn fork; the Windows
+requirements below apply to the inherited Windows workflow.
+
 ## Development Environment Setup
 
 You need:

@@ -1,5 +1,16 @@
 # xboxrecomp
 
+This fork's `steam-frame-vr` branch is the native Linux ARM64 runtime for
+[Takedawn VR on Steam Frame](https://github.com/astromaddie/takedawn/tree/steam-frame-vr).
+It adds OpenXR on the Vulkan backend, per-eye replay of the game's draw calls,
+tracked views, a separate HUD panel, Frame controller input and rumble. Linux
+thread affinity puts guest work and the GPU executor on the faster cores.
+See [Steam Frame features and build instructions](docs/steam-frame.md) for
+the matching source branches, dependencies and limits.
+
+The older toolkit overview and Windows-first instructions below are inherited
+from upstream. They don't describe the Frame build.
+
 ```
  #   #  ####    ###   #   #         #####   ###    ###   #       ###
  #   #  #   #  #   #  #   #           #    #   #  #   #  #      #
